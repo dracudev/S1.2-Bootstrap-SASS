@@ -1,23 +1,33 @@
-// Custom variables
-$primary: #0074d9;
-$danger: #ff4136;
+@import 'node_modules/bootstrap/scss/functions';
+@import 'node_modules/bootstrap/scss/variables';
+
+$font-family-base: 'Roboto', sans-serif;
+
+// Custom colors
+$primary: #5265E1;
+$secundary: #FA5959;
 
 $theme-colors: (
   "primary":    $primary,
-  "secondary":  $secondary,
-  "success":    $success,
-  "info":       $info,
-  "warning":    $warning,
-  "danger":     $danger,
-  "light":      $light,
-  "dark":       $dark
+  "secundary":     $secundary,
 );
 
-// Create your own map
 $custom-colors: (
   "custom-color": #900
 );
 
 $theme-colors: map-merge($theme-colors, $custom-colors);
+
+// Custom sizes
+
+$custom-spacing: (
+    6: 6rem,
+    7: 7rem,
+    8: 8rem,
+    9: 9rem,
+    10: 10rem,
+);
+
+$spacers: map-merge($spacers, $custom-spacing);
 
 @import "node_modules/bootstrap/scss/bootstrap";

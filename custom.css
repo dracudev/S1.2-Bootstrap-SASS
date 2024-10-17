@@ -1,0 +1,22 @@
+/* NAVBAR MODAL */
+.modal-backdrop {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+.navbar-modal .modal-dialog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+  }
+
+.navbar-modal .modal-content {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: none;
+    text-align: center;
+  }
+
+  .navbar-modal .nav-link {
+    font-size: 1.5rem;
+    padding: 1rem;
+  }
