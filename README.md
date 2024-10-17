@@ -4,6 +4,13 @@
 
 This project focuses on creating a responsive landing page using **Bootstrap 5** and **SASS**. The goal is to replicate a provided design for desktop, tablet, and mobile devices while adhering to best practices in responsive design. You will use **Bootstrap's grid system**, **Media Queries**, and **SASS** for custom styling.
 
+### Objectives
+
+- Understand and practice SASS.
+- Learn to create websites with Bootstrap 5.
+- Understand how Bootstrap components work.
+- Validate forms.
+
 <br>
 
 ## 📐 Project Structure
