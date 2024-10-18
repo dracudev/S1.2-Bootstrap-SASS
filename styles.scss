@@ -9,11 +9,11 @@ $secundary: #FA5959;
 
 $theme-colors: (
   "primary":    $primary,
-  "secundary":     $secundary,
+  "secundary":     $secundary
 );
 
 $custom-colors: (
-  "custom-color": #900
+  "bluemodal": rgb(13, 3, 59)
 );
 
 $theme-colors: map-merge($theme-colors, $custom-colors);

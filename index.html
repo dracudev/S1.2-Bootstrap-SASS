@@ -10,18 +10,18 @@
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-md navbar-light bg-light mt-3 mx-8">
-        <a class="navbar-brand" href="#">
+    <nav class="navbar navbar-expand-md navbar-light bg-light mt-3 mx-sm-5 mx-md-5">
+        <a class="navbar-brand ms-4" href="#">
           <img src="/S1.2-Bootstrap-SASS/img/logo-bookmark.svg" alt="Logo">
         </a>
         
         <!-- Toggler -->
-        <button class="navbar-toggler" type="button" data-bs-toggle="modal" data-bs-target="#navbarModal" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler border-0 me-4" type="button" data-bs-toggle="modal" data-bs-target="#navbarModal" aria-label="Toggle navigation">
+          <img src="/S1.2-Bootstrap-SASS/img/icon-hamburger.svg" alt="">
         </button>
       
         <!-- Navbar collapse -->
-        <div class="collapse navbar-collapse d-none d-md-block">
+        <div class="collapse navbar-collapse d-none">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
               <a class="nav-link" href="#">FEATURES</a>
@@ -32,32 +32,34 @@
             <li class="nav-item">
               <a class="nav-link" href="#">CONTACT</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">LOGIN</a>
+            <li class="nav-item">  
+              <button type="button" class="btn bg-secundary text-white px-4 btn-sm ms-3 mt-1">LOGIN</button>                
             </li>
           </ul>
         </div>
       </nav>
       
       <!-- Modal mobile navbar -->
-      <div class="modal fade" id="navbarModal" tabindex="-1" aria-labelledby="navbarModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      <div class="modal fade modal-fullscreen" id="navbarModal" tabindex="-1" aria-labelledby="navbarModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+          <div class="modal-content bg-bluemodal text-white">
+            <div class="modal-header py-4 px-4">
+              <img src="/S1.2-Bootstrap-SASS/img/logo-bookmark-white.svg" alt="">
+              <button type="button" class="btn-close mb-1" data-bs-dismiss="modal" aria-label="Close">
+                <img src="/S1.2-Bootstrap-SASS/img/icon-close.svg" alt="">
+              </button>
             </div>
-            <div class="modal-body">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Features</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Pricing</a>
-                </li>
-              </ul>
+            <div class="modal-body m-auto p-5">
+                <div class="container text-center">
+                  <a class="nav-link mb-3 pb-3 border-bottom" href="#">FEATURES</a>
+                  <a class="nav-link" href="#">PRICING</a>
+                  <a class="nav-link" href="#">CONTACT</a>
+                  <button type="button" class="btn bg-transparent text-white px-8 btn-sm mt-3 border-white">LOGIN</button>
+                </div>
+            </div>
+            <div class="modal-footer mx-auto border-0 my-4">
+              <img href="#" src="/S1.2-Bootstrap-SASS/img/icon-facebook.svg" alt="">
+              <img href="#" class="ms-4" src="/S1.2-Bootstrap-SASS/img/icon-twitter.svg" alt="">
             </div>
           </div>
         </div>
