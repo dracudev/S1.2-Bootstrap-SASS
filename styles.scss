@@ -13,12 +13,13 @@ $theme-colors: (
 );
 
 $custom-colors: (
-  "bluemodal": rgb(13, 3, 59)
+  "bluemodal": rgb(76, 87, 156)
 );
 
 $theme-colors: map-merge($theme-colors, $custom-colors);
 
-// Custom sizes
+// Custom width
+
 
 $custom-spacing: (
     6: 6rem,
@@ -29,5 +30,13 @@ $custom-spacing: (
 );
 
 $spacers: map-merge($spacers, $custom-spacing);
+
+// // Custom border size
+
+// $custom-b-width: (
+//   tiny: 0.5px
+// );
+
+// $border-widths: map-merge($border-widths, $custom-b-width);
 
 @import "node_modules/bootstrap/scss/bootstrap";
