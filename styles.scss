@@ -31,12 +31,4 @@ $custom-spacing: (
 
 $spacers: map-merge($spacers, $custom-spacing);
 
-// // Custom border size
-
-// $custom-b-width: (
-//   tiny: 0.5px
-// );
-
-// $border-widths: map-merge($border-widths, $custom-b-width);
-
 @import "node_modules/bootstrap/scss/bootstrap";

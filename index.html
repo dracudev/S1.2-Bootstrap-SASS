@@ -10,6 +10,8 @@
 </head>
 <body>
 
+    <!-- NAVBAR -->
+
     <nav class="navbar navbar-expand-md navbar-light bg-light mt-3  mx-md-5 mx-2">
         <a class="navbar-brand ms-4" href="#">
           <img src="/S1.2-Bootstrap-SASS/img/logo-bookmark.svg" alt="Logo">
@@ -20,7 +22,7 @@
           <img src="/S1.2-Bootstrap-SASS/img/icon-hamburger.svg" alt="">
         </button>
       
-        <!-- Navbar collapse -->
+        <!-- Navbar elements -->
         <div class="collapse navbar-collapse d-none g-5">
           <ul class="navbar-nav ms-auto me-4">
             <li class="nav-item me-3">
@@ -40,7 +42,7 @@
       </nav>
       
       <!-- Modal mobile navbar -->
-      <div class="modal fade modal-fullscreen" id="navbarModal" tabindex="-1" aria-labelledby="navbarModalLabel" aria-hidden="true">
+      <div class="modal fade modal-fullscreen" id="navbarModal" tabindex="-1" aria-labelledby="navbarModal" aria-hidden="true">
         <div class="modal-dialog modal-fullscreen">
           <div class="modal-content bg-bluemodal bg-opacity-50 text-white">
             <div class="modal-header mx-3 mt-3 border-0">
@@ -58,12 +60,38 @@
                 </div>
             </div>
             <div class="modal-footer mx-auto border-0 my-4">
-              <img href="#" src="/S1.2-Bootstrap-SASS/img/icon-facebook.svg" alt="">
-              <img href="#" class="ms-4" src="/S1.2-Bootstrap-SASS/img/icon-twitter.svg" alt="">
+              <img src="/S1.2-Bootstrap-SASS/img/icon-facebook.svg" alt="">
+              <img class="ms-4" src="/S1.2-Bootstrap-SASS/img/icon-twitter.svg" alt="">
             </div>
           </div>
         </div>
       </div>
+
+      <!-- PRINCIPAL SECTION -->
+
+      <section class="container-fluid mt-4 p-5 mt-sm-2">
+        <div class="container-fluid">
+          <div class="row">
+
+            <!-- Image + blue rectangle -->
+            <div class="col-md-6 col-sm-6 col-lg-6 col-12 d-flex justify-content-center align-items-center order-1 order-sm-2 order-md-2">
+              <img class="img-fluid z-index-2" src="/S1.2-Bootstrap-SASS/img/illustration-hero.svg" alt="Imagen">
+            </div>
+      
+            <!-- Text -->
+            <div class="col-md-6 col-sm-6 col-lg-6 col-12 text-black text-center text-sm-start text-md-start mt-4 order-2 order-sm-1 order-md-1">
+              <h1 class="fw-bold">A Simple Bookmark Manager</h1>
+              <p class="mt-3">A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free.</p>
+              <div class="d-flex justify-content-center justify-content-sm-start">
+                <button type="button" class="btn btn-primary text-white p-2 btn-sm mt-3 shadow">Get it on Chrome</button>
+                <button type="button" class="btn p-2 btn-sm mt-3 ms-3 shadow">Get it on Firefox</button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+      
 
     <script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
