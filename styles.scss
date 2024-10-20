@@ -5,11 +5,12 @@ $font-family-base: 'Roboto', sans-serif;
 
 // Custom colors
 $primary: #5265E1;
-$secundary: #FA5959;
+$secondary: #FA5959;
 
 $theme-colors: (
   "primary":    $primary,
-  "secundary":     $secundary
+  "secondary":     $secondary,
+  "grey":      #6c757d,
 );
 
 $custom-colors: (
@@ -18,8 +19,8 @@ $custom-colors: (
 
 $theme-colors: map-merge($theme-colors, $custom-colors);
 
-// Custom width
 
+// Custom width
 
 $custom-spacing: (
     6: 6rem,
@@ -30,5 +31,16 @@ $custom-spacing: (
 );
 
 $spacers: map-merge($spacers, $custom-spacing);
+
+// Custom tabs
+
+$nav-link-color: #838181;
+$nav-link-active-color: black;
+
+$nav-underline-link-active-color: black;
+$nav-underline-gap: 0rem;
+$nav-underline-border-width: 0.150rem;
+
+
 
 @import "node_modules/bootstrap/scss/bootstrap";
