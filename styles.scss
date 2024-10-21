@@ -1,5 +1,6 @@
 @import 'node_modules/bootstrap/scss/functions';
 @import 'node_modules/bootstrap/scss/variables';
+@import 'node_modules/bootstrap/scss/mixins';
 
 $font-family-base: 'Roboto', sans-serif;
 
@@ -35,11 +36,24 @@ $spacers: map-merge($spacers, $custom-spacing);
 // Custom tabs
 
 $nav-link-color: #838181;
-$nav-link-active-color: black;
+$nav-tabs-border-color: #838181;
+$nav-tabs-link-active-border-color: $secondary;
+$nav-tabs-border-width: 0px;
+$nav-link-hover-color: $secondary;
 
-$nav-underline-link-active-color: black;
-$nav-underline-gap: 0rem;
-$nav-underline-border-width: 0.150rem;
+.tab-top {
+  @include media-breakpoint-down(md) {
+    border-top: 3px solid #83818189;
+  }
+}
+
+.tab-bottom {
+    border-bottom: 3px solid #83818189;
+}
+
+.nav-tabs .nav-link.active {
+  --bs-nav-tabs-border-width: 3px;
+}
 
 // Blue rectangle
 
