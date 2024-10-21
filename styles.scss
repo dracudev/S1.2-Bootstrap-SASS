@@ -41,6 +41,29 @@ $nav-underline-link-active-color: black;
 $nav-underline-gap: 0rem;
 $nav-underline-border-width: 0.150rem;
 
+// Blue rectangle
+
+.image-container {
+  position: relative;
+}
+
+.custom-image {
+  width: 100%;
+  height: auto;
+}
+
+.rectangle {
+  position: absolute;
+  top: 23%;
+  right: 0%;
+  width: 65%;
+  height: 80%;
+  background-color: $primary;
+  z-index: -1;
+  border-top-left-radius: 30%;
+  border-bottom-left-radius: 30%;
+}
+
 
 
 @import "node_modules/bootstrap/scss/bootstrap";
