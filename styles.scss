@@ -64,6 +64,17 @@ $nav-underline-border-width: 0.150rem;
   border-bottom-left-radius: 30%;
 }
 
+.rectangle-2 {
+  position: absolute;
+  top: 30%;
+  left: 0%;
+  width: 65%;
+  height: 90%;
+  background-color: $primary;
+  z-index: -1;
+  border-top-right-radius: 30%;
+  border-bottom-right-radius: 30%;
+}
 
 
 @import "node_modules/bootstrap/scss/bootstrap";
