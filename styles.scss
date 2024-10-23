@@ -119,4 +119,19 @@ $accordion-button-focus-border-color: none;
 $accordion-button-focus-box-shadow: none;
 $accordion-button-active-bg: none;
 
+// Custom form
+$form-feedback-icon-invalid: url(img/icon-error.svg);
+
+// $form-invalid-color: $secondary;
+// $form-invalid-border-color: $secondary;
+
+// $form-feedback-margin-top:          $form-text-margin-top;
+// $form-feedback-font-size:           $form-text-font-size;
+// $form-feedback-font-style:          $form-text-font-style;
+// $form-feedback-invalid-color:       $secondary;
+
+.invalid-text {
+  padding: 0px
+}
+
 @import "node_modules/bootstrap/scss/bootstrap";
