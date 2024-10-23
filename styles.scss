@@ -90,5 +90,33 @@ $nav-link-hover-color: $secondary;
   border-bottom-right-radius: 30%;
 }
 
+.rectangle-3 {
+  position: absolute;
+  top: 30%;
+  left: 0%;
+  width: 65%;
+  height: 79%;
+  background-color: $primary;
+  z-index: -1;
+  border-top-right-radius: 30%;
+  border-bottom-right-radius: 30%;
+}
+
+// Custom cards
+
+.card-h {
+  @include media-breakpoint-up(md) {
+    height: 40em;
+  }
+}
+
+// Custom accordion
+
+$accordion-button-icon: url(img/icon-arrow.svg);
+$accordion-button-active-icon: url(img/icon-arrow-2.svg);
+
+$accordion-button-focus-border-color: none;
+$accordion-button-focus-box-shadow: none;
+$accordion-button-active-bg: none;
 
 @import "node_modules/bootstrap/scss/bootstrap";
