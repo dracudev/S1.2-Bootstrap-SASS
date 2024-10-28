@@ -4,7 +4,6 @@
 
 $font-family-base: 'Roboto', sans-serif;
 
-// Custom colors
 $primary: #5265E1;
 $secondary: #FA5959;
 
@@ -22,9 +21,6 @@ $custom-colors: (
 
 $theme-colors: map-merge($theme-colors, $custom-colors);
 
-
-// Custom width
-
 $custom-spacing: (
     6: 6rem,
     7: 7rem,
@@ -34,8 +30,6 @@ $custom-spacing: (
 );
 
 $spacers: map-merge($spacers, $custom-spacing);
-
-// Custom tabs
 
 $nav-link-color: #838181;
 $nav-tabs-border-color: #838181;
@@ -57,8 +51,6 @@ $nav-link-hover-color: $secondary;
   --bs-nav-tabs-border-width: 3px;
 }
 
-// Blue rectangle
-
 .image-container {
   position: relative;
 }
@@ -66,6 +58,18 @@ $nav-link-hover-color: $secondary;
 .custom-image {
   width: 100%;
   height: auto;
+}
+
+.img-md {
+  @include media-breakpoint-down(md) {
+    max-width: 80%;
+  }
+}
+
+.card-md {
+  @include media-breakpoint-down(md) {
+    max-width: 90%;
+  }
 }
 
 .rectangle {
@@ -104,15 +108,11 @@ $nav-link-hover-color: $secondary;
   border-bottom-right-radius: 30%;
 }
 
-// Custom cards
-
 .card-h {
   @include media-breakpoint-up(md) {
     height: 40em;
   }
 }
-
-// Custom accordion
 
 $accordion-button-icon: url(img/icon-arrow.svg);
 $accordion-button-active-icon: url(img/icon-arrow-2.svg);
@@ -121,13 +121,9 @@ $accordion-button-focus-border-color: none;
 $accordion-button-focus-box-shadow: none;
 $accordion-button-active-bg: none;
 
-// Custom form
-
 .was-validated .form-control:invalid, .form-control.is-invalid {
   background-image: url(img/icon-error.svg) !important;
 }
-
-// Custom hover
 
 .nav-link:hover {
   color: $secondary !important;
