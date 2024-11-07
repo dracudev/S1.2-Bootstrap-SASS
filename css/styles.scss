@@ -1,6 +1,6 @@
-@import 'node_modules/bootstrap/scss/functions';
-@import 'node_modules/bootstrap/scss/variables';
-@import 'node_modules/bootstrap/scss/mixins';
+@import '../node_modules/bootstrap/scss/functions';
+@import '../node_modules/bootstrap/scss/variables';
+@import '../node_modules/bootstrap/scss/mixins';
 
 $font-family-base: 'Roboto', sans-serif;
 
@@ -154,4 +154,4 @@ $accordion-button-active-bg: none;
   filter: brightness(0) saturate(100%) invert(49%) sepia(93%) saturate(1597%) hue-rotate(325deg) brightness(98%) contrast(118%);
 }
 
-@import "node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/bootstrap/scss/bootstrap";
