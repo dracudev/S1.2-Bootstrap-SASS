@@ -46,7 +46,6 @@ This project focuses on creating a responsive landing page using **Bootstrap 5**
 
 ## 📋 Requirements
 
-- **Node.js** v14.17.0
 - **NPM** v6.14.13
 - **SASS** (Dart Sass recommended)
   - **SASS compiler** (e.g., the [VS Code SASS Compiler extension](https://marketplace.visualstudio.com/items?itemName=glenn2223.live-sass))
@@ -77,9 +76,3 @@ This project focuses on creating a responsive landing page using **Bootstrap 5**
 
 1. Open the `index.html` file in your browser to view the layout.
 2. Use styles.scss to customize styles and generate the final CSS file.
-
-<br>
-
-## 🌐 Deployment
-
-No needed for this project.
