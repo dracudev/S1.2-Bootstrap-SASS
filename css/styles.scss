@@ -114,15 +114,15 @@ $nav-link-hover-color: $secondary;
   }
 }
 
-$accordion-button-icon: url(img/icon-arrow.svg);
-$accordion-button-active-icon: url(img/icon-arrow-2.svg);
+$accordion-button-icon: url('/img/icon-arrow.svg');
+$accordion-button-active-icon: url('/img/icon-arrow-2.svg');
 
 $accordion-button-focus-border-color: none;
 $accordion-button-focus-box-shadow: none;
 $accordion-button-active-bg: none;
 
 .was-validated .form-control:invalid, .form-control.is-invalid {
-  background-image: url(img/icon-error.svg) !important;
+  background-image: url('/img/icon-error.svg') !important;
 }
 
 .nav-link:hover {

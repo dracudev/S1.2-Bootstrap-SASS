@@ -77,7 +77,7 @@
 }
 
 .was-validated .form-control:invalid, .form-control.is-invalid {
-  background-image: url(img/icon-error.svg) !important;
+  background-image: url("/img/icon-error.svg") !important;
 }
 
 .nav-link:hover {
@@ -4820,11 +4820,11 @@ textarea.form-control-lg {
   --bs-accordion-btn-padding-y: 1rem;
   --bs-accordion-btn-color: var(--bs-body-color);
   --bs-accordion-btn-bg: var(--bs-accordion-bg);
-  --bs-accordion-btn-icon: url(img/icon-arrow.svg);
+  --bs-accordion-btn-icon: url("/img/icon-arrow.svg");
   --bs-accordion-btn-icon-width: 1.25rem;
   --bs-accordion-btn-icon-transform: rotate(-180deg);
   --bs-accordion-btn-icon-transition: transform 0.2s ease-in-out;
-  --bs-accordion-btn-active-icon: url(img/icon-arrow-2.svg);
+  --bs-accordion-btn-active-icon: url("/img/icon-arrow-2.svg");
   --bs-accordion-btn-focus-box-shadow: none;
   --bs-accordion-body-padding-x: 1.25rem;
   --bs-accordion-body-padding-y: 1rem;
