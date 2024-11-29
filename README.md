@@ -15,7 +15,7 @@ This project focuses on creating a responsive landing page using **Bootstrap 5**
 
 ## 📐 Project Structure
 
-### Level 1
+### ⭐ Level 1
 
 - **Exercise 1**: Implement the main content with a fixed navigation bar using Bootstrap's `NavBar` component. Use the `Grid Responsive` system to divide the screen into two columns (slogan and image). Modify Bootstrap's primary and secondary colors using SASS.
   
@@ -25,11 +25,11 @@ This project focuses on creating a responsive landing page using **Bootstrap 5**
 
 - **Exercise 4**: Implement the FAQs section using Bootstrap's `Accordion` component. Customize the accordion classes to fit the provided layout.
 
-### Level 2
+### ⭐⭐ Level 2
 
 - **Exercise 5**: Build the footer with a Bootstrap form that includes validation. Show error messages if the newsletter form is empty or the email format is incorrect.
 
-### Level 3
+### ⭐⭐⭐ Level 3
 
 - **Exercise 6**: Modify the hover states of buttons, links, tabs, and alerts to reflect the design specifications.
 
